@@ -1,0 +1,73 @@
+﻿CUST_ID,CUST_NAME,NOMINEE,NOMINEE_RELATION,PHN_NO,ADDRESS,DOB,GENDER
+1,Fazeel,Fathima,Wife,7563738274,Kormangla,1984-05-10,M
+2,Shivam,Chaudary,Father,8765432123,Madiwala,1995-10-13,M
+3,Shankar,Meena,Mother,7856746357,Silk Board,1998-08-04,M
+4,Afnan,Alfred,Brother,9876543218,Electronic city,2000-04-16,M
+5,Vijay,Vijaya,Daughter,6784563456,Vasanth Nagar,1980-07-28,M
+6,Swaraj,Nayana,Wife,9875675874,Jaya Nagar,1994-12-09,M
+7,Hrushi,Poorna,Wife,4567585765,Begur,1990-02-18,M
+8,Sushmitha,Krishna,Son,9687468376,Bellandur,1985-06-09,F
+9,Aman,Ameena,Mother,7292747278,Kormangla,1997-09-15,M
+10,Manan,Narayana,Brother,7897897896,Madiwala,1995-06-16,M
+11,Yashwanth,Chandra,Father,7893376167,Belandur,1996-09-08,M
+12,Narayan ,Shyama,Daughter,8675867857,Jaya Nagar,1980-06-12,M
+13,Ahmed,Salman,Son,7357465767,Madiwala,1987-01-01,M
+14,Murthy,Srinivas,Father,8678576584,Electronic city,2000-05-19,M
+15,Snehith,Bharath,Father,8768768768,Silk Board,2001-10-08,M
+16,Aishwarya,Shyamala,Mother,9876784563,Belandur,1999-12-01,F
+17,Praneeth,Priya,Wife,7568465736,Begur,1993-05-10,M
+18,Sai,Asish,Son,6785674865,Jaya Nagar,1980-04-15,M
+19,Vinayak,Vimla,Daughter,8768244636,Kormangla,1987-11-16,M
+20,Vikram,Indu,Wife,9809809808,Vasanth Nagar,1985-01-17,M
+21,Marc,Coen,Son,9563287415,"Koramangala, Bangalore",2000-05-15,M
+22,Juelz,Roxie,Wife,7553793524,Basavanagudi,1998-04-27,F
+23,Gaylord,Theressa ,Daughter,8844462487,Indira Nagar,1996-08-23,M
+24,Jack,Kaylie,Wife,9978533380,Jayanagar,1997-05-06,M
+25,Vera,Ingrid,Husband,6521398869,Madiwala,1999-12-15,F
+26,Kacy,Harris,Husband,6658299657,Rajaji Nagar,1996-12-17,M
+27,Scottie,Jaylin,Brother,6489066960,Madiwala,1992-06-08,F
+28,Deeanna,Rogelio,Father,8937539488,Basavanagudi,1996-03-08,F
+29,Brant,Jillian,Mother,9630390580,Indira Nagar,1995-07-22,M
+30,Jeffie,Mayson,Daughter,7802125148,Rajaji Nagar,1989-12-29,M
+31,Monte,Majesty,Son,6881554574,Frazer Town,1999-05-30,M
+32,Terrell,Merrick,Son,9654210154,HSR Layout,1997-05-12,M
+33,Annelle,Avani,Daughter,8645255482,HSR Layout,1995-08-16,F
+34,Lucila,Ronnie,Brother,9652365878,Frazer Town,1993-11-27,F
+35,Marybelle,Jaelynn,Sister,9653275841,Rajaji Nagar,2000-11-14,F
+36,Carmen,Benny,Wife,9857125884,Basavanagudi,1996-05-13,M
+37,Coretta,Saanvi,Wife,8865245627,Madiwala,1998-06-05,M
+38,Melida,Juelz,Son,6698523747,Indira Nagar,1997-05-14,F
+39,Darlene,Cordelia,Daughter,9652584213,Koramangala,1998-10-25,F
+40,Minta,Lyle,Daughter,6945423547,Koramangala,1996-12-24,F
+41,Ram,Olivia,wife,9846563896,koramangala,1995-05-12,M
+42,Shaam,Emma,wife,9846563897,whitefield,1990-04-30,M
+43,Ravi,Charlotte,daughter,9846563899,indiranagar,1998-03-22,M
+44,Navdeep,Amelia,daughter,9846563900,hsr layout,1994-11-03,M
+45,Pradeep,Ava,son,9846563902,marthahalli,1993-04-12,M
+46,Afzaan,Sophia,daughter,9846563903,koramangala,1993-12-01,M
+47,Sameer,Isabella,daughter,9846563905,indiranagar,1990-04-03,M
+48,Saif,Mia,daughter,9846563906,marthahalli,1899-03-05,M
+49,Tousif,Evelyn,daughter,9846563908,whitefield,1988-05-27,M
+50,Mehtab,Harper,son,9846563909,hsr layout,1991-09-22,M
+51,Zainab,Luna,daughter,9846563911,koramangala,1990-04-05,F
+52,Manisha,Camila,wife,9846563912,whitefield,1995-05-30,F
+53,Tanveer,Gianna,wife,9846563914,hsr layout,1992-04-03,M
+54,Jaleel,Elizabeth,wife,9846563915,marthahalli,1998-04-02,F
+55,Jameel,Eleanor,daughter,9846563917,indiranagar,1989-04-06,M
+56,Ishaan,Ella,son,9846563918,indiranagar,1990-04-03,M
+57,Aditya,Abigail,son,9846563920,koramangala,1890-06-08,M
+58,Akash,Sofia,wife,9846563921,koramangala,1995-05-12,M
+59,Akshit,Avery,daughter,9846563923,hsr layout,1990-04-30,M
+60,Dev,Scarlett,daughter,9846563924,whitefield,1998-03-22,M
+61,Jeffin,Emily,daughter,9846563926,marthahalli,1994-11-03,M
+62,Jitendra,Aria,wife,9846563927,indiranagar,1993-04-12,M
+63,Koundinya,Penelope,daughter,9846563929,marthahalli,1993-12-01,M
+64,Sahir,Chloe,son,9846563930,whitefield,1990-04-03,M
+65,Pinku,Layla,daughter,9846563932,koramangala,1899-03-06,M
+66,Chotu,Sasi,son,9846563933,hsr layout,1990-04-30,M
+67,Ravi,Sagar,son,9846563935,whitefield,1998-03-22,M
+68,Rahul,Bharath,son,9846563936,marthahalli,1994-11-03,M
+69,Harsh,Sonan,daughter,9846563938,indiranagar,1993-04-12,M
+70,Jathin,Shankar,son,9846563939,marthahalli,1993-12-01,M
+71,Shashi,Sai,son,9846563941,whitefield,1990-04-03,F
+72,Shankar,Raghav,son,9846563942,koramangala,1899-03-07,M
