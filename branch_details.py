@@ -1,9 +1,12 @@
-import pandas as pd
-import maininse as sql
-insert_query = 'INSERT INTO branch_details VAlUES(%s,%s,%s)'
-l = []
-df = pd.read_csv(r"csv_files\branch_details.csv")
-for i in df.values:
-    l.append(tuple(i))
-sql.cur.executemany(insert_query,l)
-sql.mydb.commit()
+query = """CREATE TABLE BRANCH_DETAILS(
+ID INT PRIMARY KEY AUTO_INCREMENT,
+BRANCH_NAME VARCHAR(25),
+INSURANCE_TYPE_ID INT,
+FOREIGN KEY (BRANCH_NAME) REFERENCES COM_BRANCH(BRANCH_NAME),
+FOREIGN KEY (INSURANCE_TYPE_ID) REFERENCES INSURANCE_TYPES(TYPE_ID)
+);"""
+
+import mysql.connector as connection
+mydb = connection.connect(host = 'localhost',username = 'root',passwd = 'mysql',database = 'insurpract')
+cur = mydb.cursor()
+cur.execute(query)

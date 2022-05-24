@@ -1,10 +1,13 @@
-import pandas as pd
-import maininse as sql
-insert_query = "INSERT INTO REGION VALUES(%s,%s,%s)"
-l = []
-df = pd.read_csv(r"csv_files\region.csv")
-for i in df.values:
-    l.append(tuple(i))
-sql.cur.executemany(insert_query,l)
-sql.mydb.commit()
+import mysql.connector as connection
+mydb = connection.connect(host = 'localhost',username = 'root',passwd = 'mysql',database = 'insurpract')
+cur = mydb.cursor()
+query ="""CREATE TABLE REGION 
+(
+	REGION_ID INT PRIMARY KEY AUTO_INCREMENT ,
+    CITY_ID INT ,
+    REGION_NAME VARCHAR(25) NOT NULL,
+    CHECK (REGION_NAME IN ('NORTH','SOUTH','EAST','WEST')),
+    FOREIGN KEY(CITY_ID) REFERENCES CITY(CITY_ID)
+);"""
 
+cur.execute(query)

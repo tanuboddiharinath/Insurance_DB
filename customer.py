@@ -1,12 +1,15 @@
-import pandas as pd
-import maininse as sql
+import mysql.connector as connection
+mydb = connection.connect(host = 'localhost',username = 'root',passwd = 'mysql',database = 'insurpract')
+cur = mydb.cursor()
+query = """CREATE TABLE CUSTOMER
+(
+	CUST_ID INT PRIMARY KEY AUTO_INCREMENT,
+    CUST_NAME VARCHAR(100) NOT NULL,
+    NOMINEE VARCHAR(100),
+    NOMINEE_RELATION VARCHAR(50),
+    PHN_NO BIGINT NOT NULL,
+    ADDRESS VARCHAR(200) NOT NULL,
+    DOB DATE NOT NULL
+);"""
 
-# mydb = connection.connect(host = 'localhost',username = 'root',passwd = 'mysql',database = 'INSURANCE_PROJ')
-# cur = mydb.cursor()
-df = pd.read_csv(r"csv_files\customer.csv")
-insert_query = "INSERT INTO CUSTOMER VALUES (%s,%s,%s,%s,%s,%s,%s,%s)"
-l = []
-for i in df.values:
-    l.append(tuple(i))
-sql.cur.executemany(insert_query,l)
-sql.mydb.commit()
+cur.execute(query)
